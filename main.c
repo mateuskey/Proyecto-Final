@@ -1,4 +1,4 @@
-#Integranates: Juan Manuel Benavente - Mateus Flores
+//Integranates: Juan Manuel Benavente - Mateus Flores
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
