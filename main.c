@@ -1,3 +1,4 @@
+#Integranates: Juan Manuel Benavente - Mateus Flores
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
@@ -110,7 +111,7 @@ int totalmagico( ){
 	return magico[j];
 }
 int num_magico( ){
-	// Imprimir las componentes del número mágico
+	// Imprimir las componentes del nÃºmero mÃ¡gico
 	FILE *fr;
 	DescriptorBacterias db;
 	int j;
@@ -119,8 +120,8 @@ int num_magico( ){
 	while(!feof(fr)){
 		fread(&db, sizeof(DescriptorBacterias), 1, fr);
 		for (j = 0; j < 16; j++){
-		// La máscara %X imprime como número hexadecimal
-		// 02 define que se rellenará con ceros hasta que imprima 2 digitos
+		// La mÃ¡scara %X imprime como nÃºmero hexadecimal
+		// 02 define que se rellenarÃ¡ con ceros hasta que imprima 2 digitos
 			magico[j]=db.magikNumber[j];
 			printf("%02X",db.magikNumber[j]);
 			printf(" ");
